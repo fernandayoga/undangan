@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+}
+
+.invitation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgb(164, 86, 200);
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bride-groom-info {
+    margin-bottom: 30px;
+}
+
+.bride-groom-info h1 {
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+
+.guest-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: auto; /* Ensures it sticks to the bottom */
+}
+
+.guest-item:hover {
+    background: #eaf4ff;
+    transform: scale(1.02);
+}
+
+.guest-item h3 {
+    margin-top: 0;
+    color: #555555;
+    font-size: 1.5rem;
+}
+
+.guest-item p {
+    margin: 10px 0;
+    color: #777777;
+    font-size: 1rem;
+}
+
+.view-invitation {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.view-invitation:hover {
+    background: linear-gradient(135deg, #5a7dff, #9b6dff);
+    transform: translateY(-3px);
+}

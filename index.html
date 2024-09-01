@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="invitation">
+        <header>
+            <h1>Undangan Pernikahan</h1>
+        </header>
+        <section class="couple">
+            <div class="photo">
+                <img src="gamabr.jpg" alt="Pengantin">
+            </div>
+            <div class="details">
+                <div class="bride">
+                    <h2>hae-in
+                    </h2>
+                    <p>Putri dari Bapak beom jun</p>
+                </div>
+                <div class="groom">
+                    <h2>hyun-woo
+                    </h2>
+                    <p>Putra dari Bapak doo gwan
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="event-info">
+            <div class="event-content">
+                <div class="event-date-time">
+                    <h3>Bismillahirrahmanirrahim</h3>
+                    <p>Dengan Rahmat dan Karunia Allah SWT,
+                        <br>
+                        Kami mengundang Bapak/Ibu/Saudara/i yang kami hormati untuk hadir dalam acara pernikahan putra-putri kami:</p>
+                    <h3>hyun-woo</h3>
+                        <p>putra dari Bapak doo gwan</p>
+                        
+                        <h3>hae-in</h3>
+                        <p>putri dari Bapak beom jun</p>
+                    <p>Yang akan dilaksanakan pada:</p><br>
+                    <p><b>Hari/Tanggal:</b> Minggu,1 September 2024
+                        <br><br><b>Waktu:</b> 08.00 wib-Selesai
+                        <br><br><b>Tempat:</b> Gedung Graha Jaya</p>
+                        <br><br>
+                        <p>Semoga Allah SWT memberkati pernikahan kami dan menjadikan rumah tangga kami sakinah, mawaddah, dan warahmah.
+
+                            Kami sangat berharap kehadiran Bapak/Ibu/Saudara/i untuk berbagi kebahagiaan dalam momen yang penuh berkah ini.</p>
+                        <h3>Wassalamu’alaikum Warahmatullahi Wabarakatuh.</h3>
+                        <p>[Nama Keluarga Mempelai Pria dan Mempelai Wanita]</p>
+                </div>
+                
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126693.42097862163!2d106.79656826205743!3d-6.2268245448686935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d34a207768d3%3A0x2e404c0d1e8c8a!2sJakarta!5e0!3m2!1sen!2sid!4v1672641455904!5m2!1sen!2sid" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="gift-registry">
+            <h3 class="hidden-text">h</h3>
+            <p>Jika Anda ingin memberikan hadiah, berikut adalah rekening kami:</p>
+            <ul>
+                <li>Bank BCA - No. Rekening: 1234567890</li>
+                <li>Bank Mandiri - No. Rekening: 0987654321</li>
+            </ul>
+        </section>
+        <footer>
+            <button id="rsvp-button">RSVP</button>
+            <div id="rsvp-form" class="hidden">
+                <h3>Konfirmasi Kehadiran</h3>
+                <form id="rsvp-form">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Nomor Telepon:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                    <label for="attendance">Akan Hadir?</label>
+                    <select id="attendance" name="attendance">
+                        <option value="yes">Ya</option>
+                        <option value="no">Tidak</option>
+                    </select>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
